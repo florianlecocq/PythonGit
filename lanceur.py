@@ -1,5 +1,6 @@
 from Module.Mathematiques import *
 from Module.geometrie import *
+from Module.fichiers import *
 a=testaddition(1,2)
 print(a)
 
@@ -18,3 +19,4 @@ perimetreCercle ()
 surfaceCercle ()
 surfaceCarre ()
 surfaceRectangle ()
+creer_dossier("./Collaboration", ["developpements" "tests" "livraisons" "bugs"])
