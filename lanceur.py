@@ -1,13 +1,13 @@
-from mathematiques import *
+from Module.Mathematiques import *
 
-a=testaddition(  )
+a=testaddition(1,2)
 print(a)
 
-b=testDivision(  )
+b=testDivision(4,1)
 print(b)
 
-c=testsoustraction()
+c=testsoustraction(4,1)
 print(c)
 
-d=testmultiplication(  )
+d=testmultiplication(1,2)
 print(d)
