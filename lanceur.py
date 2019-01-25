@@ -1,5 +1,6 @@
 from Module.Mathematiques import *
-
+from Module.listes import *
+# test du module mathematique
 a=testaddition(1,2)
 print(a)
 
@@ -11,3 +12,7 @@ print(c)
 
 d=testmultiplication(1,2)
 print(d)
+
+# tester le module liste
+listes.sort()
+print(listes)
