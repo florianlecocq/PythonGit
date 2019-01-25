@@ -1,5 +1,5 @@
 from Module.Mathematiques import *
-
+from Module.geometrie import *
 a=testaddition(1,2)
 print(a)
 
@@ -11,3 +11,10 @@ print(c)
 
 d=testmultiplication(1,2)
 print(d)
+
+perimetreRectangle ()
+perimetreCarre ()
+perimetreCercle ()
+surfaceCercle ()
+surfaceCarre ()
+surfaceRectangle ()
